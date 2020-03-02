@@ -19,7 +19,7 @@ document.querySelector( '.btn-outline-secondary').addEventListener( 'click', eve
 //Fonctionnalité 4 :
 document.getElementsByClassName( 'btn-outline-secondary')[1].addEventListener( 'click', event => {
    const btn = event.target;
-   btn.style.color === 'green' ? btn.style.color = '#6c757d' : btn.style.color = 'green'
+   btn.style.color === 'green' ? btn.style.color = '#6d757d' : btn.style.color = 'green'
 });
 
 
